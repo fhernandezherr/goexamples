@@ -9,12 +9,13 @@ For this exercise
 	b. print out the type of the variable “x”
 	c. assign 42 to the VARIABLE “x” using the “=” OPERATOR
 	d. print out the value of the variable “x”
- */
+*/
 package main
 
 import "fmt"
 
 type NewType int
+
 var x NewType
 
 func main() {

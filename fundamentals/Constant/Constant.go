@@ -32,15 +32,15 @@ const (
 	Partyday
 	numberOfDays  // this constant is not exported
 )
- */
+*/
 
 package main
 
 import "fmt"
 
 const (
-	a int = 42					// typed int constant
-	b = 42.78					// untyped floating-point constant
+	a int    = 42    // typed int constant
+	b        = 42.78 // untyped floating-point constant
 	c string = "James Bond"
 )
 

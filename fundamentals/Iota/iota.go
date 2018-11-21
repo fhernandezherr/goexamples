@@ -34,7 +34,7 @@ const (
 	bit3, mask3                           // bit3 == 8, mask3 == 7  (iota == 3)
 )
 This last example exploits the implicit repetition of the last non-empty expression list.
- */
+*/
 package main
 
 import "fmt"
@@ -53,7 +53,7 @@ const (
 
 // Example of Iota with shifting
 const (
-	_ = iota
+	_  = iota
 	kb = 1 << (iota * 10)
 	mb = 1 << (iota * 10)
 	gb = 1 << (iota * 10)
@@ -76,4 +76,3 @@ func main() {
 	fmt.Printf("%d\t\t\t%b\n", mb, mb)
 	fmt.Printf("%d\t\t%b\n", gb, gb)
 }
-

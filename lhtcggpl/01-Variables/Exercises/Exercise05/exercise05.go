@@ -14,12 +14,13 @@ Building on the code from the previous example
 		i. now use CONVERSION to convert the TYPE of the VALUE stored
            in “x” to the UNDERLYING TYPE then use the “=” operator to
            ASSIGN that value to “y” print out the value stored in “y”
- */
+*/
 package main
 
 import "fmt"
 
 type NewType int
+
 var x NewType
 var y int
 

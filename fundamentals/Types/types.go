@@ -19,18 +19,17 @@ package Types
 import "fmt"
 
 // An alias declaration binds an identifier to the given type.
-type a = int;
+type a = int
 
 // A type definition creates a new, distinct type with the same underlying type and operations as the given type, and binds an identifier to it
-type b int;
+type b int
 
 // Numeric types
 
 type (
-	c = string		// alias
-	d string		// type definition
+	c = string // alias
+	d string   // type definition
 )
-
 
 func main() {
 
